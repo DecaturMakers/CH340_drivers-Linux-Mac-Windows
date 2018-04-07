@@ -1,9 +1,11 @@
 # CH340 serial chip Drivers for [Linux](#linux), [Mac](#mac), and [Windows](#windows) all in one place
 A One-Stop driver repo for the popular serial chip used on cheap Chinese Arduino clones.
 
-The CH340G chip, made by Jiangsu Qinheng Co., Ltd. in the [Nanjing Software Valley of China](https://goo.gl/maps/WUmsK24bTDP2), is a very popular USB to Serial chip used in Arduino clones because of it's low cost. They are the OEM of this chip according to [SparkFun](https://learn.sparkfun.com/tutorials/serial-basic-hookup-guide) who builds products that incorporate it.
-![SparkFun Serial Basic](https://i.imgur.com/zVgWjmw.jpg)
-Unfortunately, [their website](http://www.wch.cn/download/CH341SER_MAC_ZIP.html), being entirely in Chinese, makes many people nervous. For this reason, there have been many people who have tried to be helpful by hosting a copy of the drivers on a more inviting site. However, that is a dangerous thing to be comfortable with. As a Maker Space that regularly teaches microprocessor hacking to beginners, [Decatur Makers](https://decaturmakers.org/) has decided to host yet another copy of these drivers. You may or may not trust us as a source, but we didn't feel safe sending our students elsewhere. When have done (and continue to do) everything in our power to verify and maintain the content of this repo.
+The CH340G chip is a very popular USB to Serial chip used in Arduino clones because of its low cost. The OEM of this chip is Jiangsu Qinheng Co., Ltd. in the [Nanjing Software Valley of China](https://goo.gl/maps/WUmsK24bTDP2) according to [SparkFun](https://learn.sparkfun.com/tutorials/serial-basic-hookup-guide) who builds products that incorporate it.
+
+![SparkFun Serial Basic](https://i.imgur.com/No5kyuy.png)
+
+Unfortunately, [their website](http://www.wch.cn/download/CH341SER_MAC_ZIP.html), being entirely in Chinese, makes many people nervous. For this reason, there have been many people who have tried to be helpful by hosting a copy of the drivers on a more inviting site. However, that is a dangerous thing to be comfortable with. As a Maker Space that regularly teaches microprocessor hacking to beginners, [Decatur Makers](https://decaturmakers.org/) has decided to host yet another copy of these drivers. You may or may not trust us as a source, but we didn't feel safe sending our students elsewhere. We have done (and continue to do) everything in our power to verify and maintain the content of this repo.
 
 
 # Installation
@@ -92,5 +94,6 @@ I **really** suggest you install using homebrew. If you do not have `brew` insta
 
 
 # References
-asdf
-: qwer
+* https://kig.re/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html
+* https://forum.arduino.cc/index.php?topic=397368.0
+* https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver
