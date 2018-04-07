@@ -52,7 +52,7 @@ Even though **Linux users should never need this**, we're going to put the infor
 
 ### Recommended Install: via [Homebrew](https://brew.sh/)
 I **really** suggest you install using homebrew. If you do not have `brew` installed, you should install it. It is the most common way to install things on a Mac that don't come from Apple's App Store.
-1. Open the Terminal (use [Spotlight](https://www.imore.com/how-use-spotlight-mac#use) to find it if you must)
+1. Open the [Terminal](https://raw.githubusercontent.com/DecaturMakers/CH340_drivers-Linux-Mac-Windows/master/drivers/macos/Terminal.png) (use [Spotlight](https://www.imore.com/how-use-spotlight-mac#use) to find it if you must)
 2. If you do not have homebrew, install it.
 
     ```
