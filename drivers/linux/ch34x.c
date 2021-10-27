@@ -14,7 +14,11 @@
 #ifndef KERNEL_VERSION
 #define	KERNEL_VERSION(ver, rel, seq)	((ver << 16) | (rel << 8) | (seq))
 #endif
-
+#if LINUX_VERSION_CODE < KERNEL_VERSION(4,11,0)
+#include <linux/signal.h>
+#else
+#include <linux/sched/signal.h>
+#endif
 #include <linux/kernel.h>
 #include <linux/errno.h>
 #include <linux/init.h>
@@ -588,7 +592,7 @@ static void ch34x_close( struct usb_serial_port *port,
 	unsigned int c_cflag;
 	int bps;
 	long timeout;
-	wait_queue_t wait;
+	wait_queue_entry_t wait;
 
 #if(LINUX_VERSION_CODE < KERNEL_VERSION(3, 11, 0))
 	dbg_ch34x("%s - port:%d", __func__, port->number);
